@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="RocketCake">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index_html.css?h=5868224b">
+</head>
+<body>
+<div class="textstyle1">
+  <div id="container_7d1752af">
+    <div id="container_7d1752af_padding" >
+      <div class="textstyle2">
+        <span class="textstyle3">Replace values in a CSV file</span>
+        </div>
+      </div>
+    </div>
+  <img src="rc_images/recipe_01.png" width="1024" height="1024" id="img_e4bf9ac" alt="" title="" />
+  <div id="container_49364a9">
+    <div id="container_49364a9_padding" >
+      <div class="textstyle1">
+<span class="textstyle4">Ingredients</span><span class="textstyle5"><br/></span><span class="textstyle6"><br/></span><span class="textstyle7">awk</span><span class="textstyle6">: It is a programming language and a command-line tool, very powerful for processing and analyzing structured text, such as CSV files or logs.<br/><br/></span><span class="textstyle7">sed</span><span class="textstyle6">: It is a command-line tool used to process and transform text streams. It&#8217;s often used for automated editing of files or outputs without opening them in a text editor.<br/><br/></span><span class="textstyle8">template.csv</span><span class="textstyle6">: CSV file containing the substitution table.<br/><br/></span><span class="textstyle8">file.csv</span><span class="textstyle6">: CSV file to be modified.</span>        </div>
+      </div>
+    </div>
+  <div id="container_594a0821">
+    <div id="container_594a0821_padding" >
+      <div class="textstyle1">
+<span class="textstyle4">Ready to use (Linux version)</span><span class="textstyle9"><br/><br/></span><span class="textstyle10">awk</span>        <span class="textstyle9"> -F',' </span>
+        <span class="textstyle11">'{print &quot;s|\\&lt;&quot; $1 &quot;\\&gt;|&quot; $2 &quot;|g&quot;}'</span>
+        <span class="textstyle9"> </span>
+        <span class="textstyle12">template.csv</span>
+        <span class="textstyle9"> | </span>
+        <span class="textstyle10">sed</span>
+        <span class="textstyle9"> -i -f - </span>
+        <span class="textstyle12">file.csv</span>
+        </div>
+      </div>
+    </div>
+  <div id="container_3af796a8">
+    <div id="container_3af796a8_padding" >
+      <div class="textstyle2">
+        <span class="textstyle5">Coming soon ...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
