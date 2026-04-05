@@ -150,3 +150,12 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: #800040;
 }
+
+#img_64f37254 {
+    position: absolute;
+    left: 20px;
+    top: 600px;
+    width: 1355px;
+    background: none;
+    height: auto;
+}
