@@ -3999,6 +3999,100 @@ a {
 .cid-vhSS49jkw0 img {
   width: 100%;
 }
+.cid-vi5GYB2R81 {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-vi5GYB2R81 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vi5GYB2R81 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vi5GYB2R81 .top-line {
+  display: flex;
+  justify-content: space-between;
+}
+.cid-vi5GYB2R81 .mbr-section-title,
+.cid-vi5GYB2R81 .mbr-section-subtitle {
+  text-align: center;
+}
+.cid-vi5GYB2R81 .item:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-vi5GYB2R81 .item-wrapper {
+  border-radius: 4px;
+  background-color: #fafafa;
+  background-color: transparent;
+}
+.cid-vi5GYB2R81 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-vi5GYB2R81 .card-box {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .cid-vi5GYB2R81 .card-box {
+    padding-right: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-vi5GYB2R81 .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-vi5GYB2R81 .card-title {
+  color: #e43f3f;
+}
+.cid-vi5GYB2R81 .cost {
+  color: #4479d9;
+}
+.cid-vi5GYB2R81 .mbr-section-subtitle DIV {
+  text-align: justify;
+}
+.cid-vi5GYB2R81 .mbr-section-subtitle {
+  text-align: justify;
+  color: #bbbbbb;
+}
+.cid-vi5Jo2uc1d {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-vi5Jo2uc1d .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vi5Jo2uc1d .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vi5Jo2uc1d .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vi5Jo2uc1d .row {
+  flex-direction: row-reverse;
+}
+.cid-vi5Jo2uc1d img {
+  width: 100%;
+}
 .cid-vhSEC9UoXo {
   padding-top: 30px;
   padding-bottom: 30px;
