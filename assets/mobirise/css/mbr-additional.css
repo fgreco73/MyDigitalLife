@@ -4592,8 +4592,8 @@ a {
   overflow: hidden;
 }
 .cid-viaw9sVq0N {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
 .cid-viaw9sVq0N .mbr-fallback-image.disabled {
@@ -4615,4 +4615,10 @@ a {
 .cid-viaw9sVq0N .mbr-section-subtitle,
 .cid-viaw9sVq0N .mbr-text {
   text-align: center;
+}
+.cid-viaEkf9VtX {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #232323;
+  overflow: hidden;
 }
